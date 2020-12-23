@@ -46,16 +46,17 @@ public class Panelim extends JPanel {
     }
     public void paint(Graphics g) {
         g.setFont(new Font("Ariel", Font.BOLD, 15));
-        int w = this.getWidth();
-        int h = this.getHeight();
-        g.clearRect(0, 0, w, h);
+//        int w = this.getWidth();
+//        int h = this.getHeight();
+//        g.clearRect(0, 0, w, h);
         updateFrame();
         drawInfo(g);
+     //   ProgressBarDemo(g);
         drawGraph(g);
         drawPokemons(g);
         drawTitle(g);
         drawAgants(g);
-        ProgressBarDemo(g);
+
     }
 
     private void updateFrame() {
@@ -137,9 +138,9 @@ public class Panelim extends JPanel {
             Iterator<CL_Pokemon> iter = pok.iterator();
             while (iter.hasNext()) {
 
-                int r = 1 + (int) (Math.random() * 255);
-                URL url = this.getClass().getResource("Pokemons/"+r+".gif");
-               Image icon = new ImageIcon(url).getImage();
+                int r = 1 + (int) (Math.random() * 100);
+               //ImageIcon url = this.getClass().getResource("pics/"+r+".png");
+               ImageIcon icon = new ImageIcon("pics/"+r+".png");
         /*      JLabel label = new JLabel(icon);
                label.setSize(50,50);
                 JFrame frameLoader = new JFrame();
@@ -155,7 +156,7 @@ public class Panelim extends JPanel {
                 if (c != null) {
                     geo_location fp = this._w2f.world2frame(c);
                    // g.drawImage(frameLoader.setVisible(true), (int) fp.x() - 20, (int) fp.y() - 20, this);
-                     g.drawImage(icon, (int) fp.x() - r, (int) fp.y() - r, 2 * r + 5, 2 * r + 5, this);
+                     g.drawImage(icon.getImage(), (int) fp.x() - r, (int) fp.y() - r, 2 * r + 5, 2 * r + 5, this);
                 }
             }
         }
@@ -163,7 +164,7 @@ public class Panelim extends JPanel {
     }
 
         private void drawAgants (Graphics g){
-            Image Playa = new ImageIcon("ash.gif").getImage();
+            ImageIcon Playa = new ImageIcon("ash.png");
             List<CL_Agent> rs = _ar.getAgents();
             //	Iterator<OOP_Point3D> itr = rs.iterator();
 
@@ -174,7 +175,7 @@ public class Panelim extends JPanel {
                 i++;
                 if (c != null) {
                     geo_location fp = this._w2f.world2frame(c);
-                    g.drawImage(Playa, (int) fp.x() - r, (int) fp.y() - r, 2 * r, 2 * r, this);
+                    g.drawImage(Playa.getImage(), (int) fp.x() - r, (int) fp.y() - r, 2 * r, 2 * r, this);
                     //g.drawImage(Playa.getImage(), (int)fp.x()-r, (int)fp.y()-r, 2*r, 2*r);
                 }
             }

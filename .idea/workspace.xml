@@ -22,13 +22,257 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f14206d-5007-45f5-afa5-37ffe316c4ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Ex2_jar/Ex2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Ex2_jar/Ex2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ex2/gameClient/Ex2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ex2/gameClient/Ex2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ex2/gameClient/FormatWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ex2/gameClient/FormatWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ex2/gameClient/MusicBack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ex2/gameClient/MusicBack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ex2/gameClient/Panelim.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ex2/gameClient/Panelim.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Ex2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/10.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/100.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/101.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/102.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/103.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/104.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/105.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/106.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/107.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/108.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/109.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/11.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/110.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/111.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/112.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/113.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/114.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/115.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/116.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/117.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/118.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/119.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/12.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/120.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/121.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/122.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/123.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/124.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/125.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/126.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/127.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/128.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/129.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/13.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/130.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/131.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/132.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/133.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/134.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/135.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/136.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/137.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/138.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/139.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/14.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/140.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/141.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/142.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/143.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/144.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/145.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/146.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/147.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/148.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/149.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/15.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/150.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/151.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/152.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/153.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/154.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/155.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/156.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/157.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/158.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/159.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/16.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/160.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/161.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/162.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/163.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/164.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/165.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/166.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/167.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/168.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/169.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/17.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/170.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/171.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/172.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/173.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/174.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/175.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/176.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/177.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/178.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/179.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/18.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/180.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/181.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/182.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/183.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/184.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/185.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/186.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/187.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/188.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/189.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/19.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/190.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/191.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/192.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/193.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/194.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/195.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/196.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/197.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/198.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/199.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/20.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/200.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/201.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/202.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/203.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/204.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/205.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/206.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/207.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/208.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/209.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/21.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/210.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/211.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/212.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/213.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/214.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/215.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/216.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/217.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/218.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/219.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/22.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/220.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/221.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/222.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/223.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/224.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/225.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/23.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/24.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/25.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/26.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/27.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/28.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/29.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/30.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/31.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/32.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/33.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/34.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/35.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/36.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/37.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/38.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/39.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/40.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/41.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/42.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/43.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/44.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/45.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/46.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/47.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/48.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/49.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/5.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/50.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/51.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/52.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/53.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/54.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/55.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/56.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/57.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/58.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/59.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/6.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/60.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/61.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/62.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/63.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/64.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/65.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/66.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/67.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/68.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/69.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/7.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/70.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/71.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/72.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/73.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/74.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/75.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/76.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/77.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/78.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/79.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/8.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/80.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/81.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/82.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/83.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/84.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/85.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/86.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/87.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/88.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/89.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/9.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/90.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/91.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/92.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/93.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/94.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/95.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/96.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/97.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/98.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/Pokemons/99.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/ash.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/src/gameClient/Ex2.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Ex2/src/gameClient/Ex2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/src/gameClient/FormatWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Ex2/src/gameClient/FormatWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/src/gameClient/MusicBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Ex2/src/gameClient/MusicBack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/src/gameClient/Panelim.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Ex2/src/gameClient/Panelim.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/src/gameClient/loginWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Ex2/src/gameClient/loginWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Ex2/videointro.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gameClient/Ex2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gameClient/Ex2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gameClient/FormatWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gameClient/FormatWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gameClient/MusicBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gameClient/MusicBack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gameClient/Panelim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gameClient/Panelim.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -37,6 +281,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProjectId" id="1m42zcFY6yDqbB1lapyGsriALPg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -51,13 +296,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TehilaMain" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
-  <component name="RunManager" selected="JAR Application.Ex2.jar">
+  <component name="RunManager" selected="Application.Ex2">
     <configuration name="Ex2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="gameClient.Ex2" />
       <module name="Ex2" />
@@ -71,13 +316,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -120,13 +367,14 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JAR Application.Ex2.jar" />
         <item itemvalue="Application.Ex2" />
+        <item itemvalue="JAR Application.Ex2.jar" />
         <item itemvalue="JUnit.DWGraph_Test.getNode" />
         <item itemvalue="JUnit.DWGraph_Test.testAddNode" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="7f14206d-5007-45f5-afa5-37ffe316c4ce" name="Default Changelist" comment="" />
@@ -140,8 +388,12 @@
       <workItem from="1608421129569" duration="51559000" />
       <workItem from="1608587845182" duration="1808000" />
       <workItem from="1608638000574" duration="34456000" />
+      <workItem from="1608738806865" duration="6285000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -165,6 +417,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1608722424605">
@@ -179,57 +432,57 @@
       <screen x="1920" y="313" width="1360" height="728" />
     </state>
     <state x="2347" y="521" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.680/1920.313.1360.728@1920.313.1360.728" timestamp="1608723792681" />
-    <state x="433" y="111" key="FileChooserDialogImpl" timestamp="1608736643945">
+    <state x="2380" y="432" key="FileChooserDialogImpl" timestamp="1608742064486">
+      <screen x="1920" y="313" width="1360" height="728" />
+    </state>
+    <state x="2380" y="432" key="FileChooserDialogImpl/0.0.1280.680/1920.313.1360.728@1920.313.1360.728" timestamp="1608742064486" />
+    <state x="433" y="111" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1608738936349" />
+    <state width="1317" height="163" key="GridCell.Tab.0.bottom" timestamp="1608746598221">
+      <screen x="1920" y="313" width="1360" height="728" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.313.1360.728@0.0.1280.680" timestamp="1608740863594" />
+    <state width="1317" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.313.1360.728@1920.313.1360.728" timestamp="1608746598221" />
+    <state width="1237" height="204" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1608739412941" />
+    <state width="1317" height="163" key="GridCell.Tab.0.center" timestamp="1608746598221">
+      <screen x="1920" y="313" width="1360" height="728" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680/1920.313.1360.728@0.0.1280.680" timestamp="1608740863594" />
+    <state width="1317" height="163" key="GridCell.Tab.0.center/0.0.1280.680/1920.313.1360.728@1920.313.1360.728" timestamp="1608746598221" />
+    <state width="1237" height="204" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1608739412941" />
+    <state width="1317" height="163" key="GridCell.Tab.0.left" timestamp="1608746598221">
+      <screen x="1920" y="313" width="1360" height="728" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680/1920.313.1360.728@0.0.1280.680" timestamp="1608740863594" />
+    <state width="1317" height="163" key="GridCell.Tab.0.left/0.0.1280.680/1920.313.1360.728@1920.313.1360.728" timestamp="1608746598221" />
+    <state width="1237" height="204" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1608739412941" />
+    <state width="1317" height="163" key="GridCell.Tab.0.right" timestamp="1608746598221">
+      <screen x="1920" y="313" width="1360" height="728" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680/1920.313.1360.728@0.0.1280.680" timestamp="1608740863594" />
+    <state width="1317" height="163" key="GridCell.Tab.0.right/0.0.1280.680/1920.313.1360.728@1920.313.1360.728" timestamp="1608746598221" />
+    <state width="1237" height="204" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1608739412941" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1608740166680">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="2380" y="432" key="FileChooserDialogImpl/0.0.1280.680/1920.313.1360.728@1920.313.1360.728" timestamp="1608733033583" />
-    <state x="433" y="111" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1608736643945" />
-    <state width="1317" height="222" key="GridCell.Tab.0.bottom" timestamp="1608737813355">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="178" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.313.1360.728@0.0.1280.680" timestamp="1608723242347" />
-    <state width="1317" height="178" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.313.1360.728@1920.313.1360.728" timestamp="1608734166351" />
-    <state width="1317" height="222" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1608737813355" />
-    <state width="1317" height="222" key="GridCell.Tab.0.center" timestamp="1608737813355">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="178" key="GridCell.Tab.0.center/0.0.1280.680/1920.313.1360.728@0.0.1280.680" timestamp="1608723242347" />
-    <state width="1317" height="178" key="GridCell.Tab.0.center/0.0.1280.680/1920.313.1360.728@1920.313.1360.728" timestamp="1608734166351" />
-    <state width="1317" height="222" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1608737813355" />
-    <state width="1317" height="222" key="GridCell.Tab.0.left" timestamp="1608737813355">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="178" key="GridCell.Tab.0.left/0.0.1280.680/1920.313.1360.728@0.0.1280.680" timestamp="1608723242347" />
-    <state width="1317" height="178" key="GridCell.Tab.0.left/0.0.1280.680/1920.313.1360.728@1920.313.1360.728" timestamp="1608734166351" />
-    <state width="1317" height="222" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1608737813355" />
-    <state width="1317" height="222" key="GridCell.Tab.0.right" timestamp="1608737813355">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="178" key="GridCell.Tab.0.right/0.0.1280.680/1920.313.1360.728@0.0.1280.680" timestamp="1608723242347" />
-    <state width="1317" height="178" key="GridCell.Tab.0.right/0.0.1280.680/1920.313.1360.728@1920.313.1360.728" timestamp="1608734166351" />
-    <state width="1317" height="222" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1608737813355" />
-    <state width="1317" height="222" key="GridCell.Tab.1.bottom" timestamp="1608737813355">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680/1920.313.1360.728@0.0.1280.680" timestamp="1608723222683" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680/1920.313.1360.728@0.0.1280.680" timestamp="1608740166680" />
     <state width="1317" height="222" key="GridCell.Tab.1.bottom/0.0.1280.680/1920.313.1360.728@1920.313.1360.728" timestamp="1608723619969" />
     <state width="1317" height="222" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1608737813355" />
-    <state width="1317" height="222" key="GridCell.Tab.1.center" timestamp="1608737813355">
+    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1608740166680">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680/1920.313.1360.728@0.0.1280.680" timestamp="1608723222683" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680/1920.313.1360.728@0.0.1280.680" timestamp="1608740166680" />
     <state width="1317" height="222" key="GridCell.Tab.1.center/0.0.1280.680/1920.313.1360.728@1920.313.1360.728" timestamp="1608723619969" />
     <state width="1317" height="222" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1608737813355" />
-    <state width="1317" height="222" key="GridCell.Tab.1.left" timestamp="1608737813355">
+    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1608740166680">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680/1920.313.1360.728@0.0.1280.680" timestamp="1608723222683" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680/1920.313.1360.728@0.0.1280.680" timestamp="1608740166680" />
     <state width="1317" height="222" key="GridCell.Tab.1.left/0.0.1280.680/1920.313.1360.728@1920.313.1360.728" timestamp="1608723619969" />
     <state width="1317" height="222" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1608737813355" />
-    <state width="1317" height="222" key="GridCell.Tab.1.right" timestamp="1608737813355">
+    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1608740166680">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680/1920.313.1360.728@0.0.1280.680" timestamp="1608723222683" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680/1920.313.1360.728@0.0.1280.680" timestamp="1608740166680" />
     <state width="1317" height="222" key="GridCell.Tab.1.right/0.0.1280.680/1920.313.1360.728@1920.313.1360.728" timestamp="1608723619969" />
     <state width="1317" height="222" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1608737813355" />
     <state x="2080" y="313" key="SettingsEditor" timestamp="1608731969000">
@@ -240,5 +493,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1608736826935" />
+    <state x="159" y="39" width="672" height="678" key="search.everywhere.popup" timestamp="1608740667004">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="159" y="39" width="672" height="678" key="search.everywhere.popup/0.0.1280.680/1920.313.1360.728@0.0.1280.680" timestamp="1608740667004" />
   </component>
 </project>

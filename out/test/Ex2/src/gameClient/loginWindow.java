@@ -84,14 +84,9 @@
 //                try {
 //                    int level = Integer.parseInt(lvl.getText());
 //                    int id = Integer.parseInt(idnumb.getText());
-//                    Ex2.setScenario_num(level);
-//                    Ex2.setUserID(id);
 //                } catch (NumberFormatException nfe) {
 //                        System.out.println("Invalid info.");}
-//                if(play) {
-//                    Ex2.startThread();
-//                    alreadyDoneThat = true;
-//            }
+//
 //        }
 //
 //    }

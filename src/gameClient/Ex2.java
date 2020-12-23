@@ -26,17 +26,18 @@ public class Ex2 implements Runnable {
     private static int id;
 
     public static void main(String[] a) {
-        //Music should start from here
-      //  String filepathField = "pokemontheme.wav";
-       // MusicBack playm1 = new MusicBack();
-       // playm1.playMusic("pokemontheme.wav");
+      //  Music should start from here
+        String filepathField = "pokemontheme.wav";
+        MusicBack playm1 = new MusicBack();
+        //playm1.playMusic("pokemontheme.wav");
         if (a.length != 2) {
             window = new FormatWindow("Login Page");
             window.setResizable(false);
            // window.add(new loginWindow());
             window.add(new Login());
-            window.setSize(1000,1000);
+            window.setSize(600,600);
             window.setVisible(true);
+            playm1.playMusic("pokemontheme.wav");
 
         } else {
             id = Integer.parseInt(a[0]);
@@ -54,30 +55,29 @@ public class Ex2 implements Runnable {
     @Override
     public void run() {
         game_service game = Game_Server_Ex2.getServer(num); // [0,23] games
+         game.getGraph();
 
-        //game.login(id);
-        String g = game.getGraph();
-        String pks = game.getPokemons();
         dw_graph_algorithms ga = new DWGraph_Algo();
         GsonBuilder builder = new GsonBuilder();
         builder.registerTypeAdapter(DWGraph_DS.class, new Json_Deserial());
-        Gson gson = builder.create();
-        DWGraph_DS graph = gson.fromJson(game.getGraph(), DWGraph_DS.class);
+        game.getPokemons();
+        Gson gsonbuild = builder.create();
+        DWGraph_DS graph = gsonbuild .fromJson(game.getGraph(), DWGraph_DS.class);
         directed_weighted_graph gg = graph;
         init(game);
 
         game.startGame();
-        window.setTitle("Ex2 - Pokemon Game" + game.timeToEnd() / 1000 + "s");
-        int timers = (int) game.timeToEnd();
         int i = 0;
-        double Time = (double) game.timeToEnd() / (double) timers;
         int str = 250;
+        window.setTitle("Pokemon game"+ game.timeToEnd() / 1000 + "s");
+        int timers = (int) game.timeToEnd();
+        double Time = (double) game.timeToEnd() / (double) timers;
         while (game.isRunning()) {
             moveAgants(game, gg);
             try {
                 if (i % 1 == 0) {
                     window.repaint();
-                    window.setTitle("Ex2 - Pokemon Game - Time to end: " + game.timeToEnd() / 1000 + "s");
+                    window.setTitle("Time: " + game.timeToEnd() / 1000 + "s");
                 }
                 switch (str) {
                     case 50:
@@ -199,30 +199,30 @@ public class Ex2 implements Runnable {
         builder.registerTypeAdapter(DWGraph_DS.class, new Json_Deserial());
         Gson gson = builder.create();
         directed_weighted_graph gg = (DWGraph_DS) gson.fromJson(game.getGraph(), DWGraph_DS.class);;
-        //gg.init(g);
         arena.setGraph(gg);
         window.setVisible(false);
         window.getContentPane().removeAll();
-        arena.setPokemons(Arena.json2Pokemons(game.getPokemons()));
         pans = new Panelim(game);
-        //window.setSize(1000, 1000);
-        window.getContentPane().add(pans);
-       // pans.update(arena);
+        pans.update(arena);
+        //arena.setPokemons(Arena.json2Pokemons(game.getPokemons()));
         window.setVisible(true);
+
+        window.setSize(700, 600);
+        window.getContentPane().add(pans);
+
 
         try {
             read = new JSONObject(game.toString());
-            int rs = read.getJSONObject("GameServer").getInt("agents");
+            int agen = (read.getJSONObject("GameServer")).getInt("agents");
             System.out.println(game.toString());
             System.out.println(game.getPokemons());
-            int src_node = 0;  // arbitrary node, you should start at one of the pokemon
             ArrayList<CL_Pokemon> ap = Arena.json2Pokemons(game.getPokemons());
             ap.sort((Comparator<? super CL_Pokemon>) new PokemonComp());
-            for(int a = 0; a < ap.size();a++) {
-                Arena.updateEdge(ap.get(a),gg);
+            for(int i =0; i < ap.size();i++) {
+                Arena.updateEdge(ap.get(i),gg);
             }
-            for(int a = 0; a < rs ;a++) {
-                int ind = a%ap.size();
+            for(int j = 0; j < agen ;j++) {
+                int ind = j%ap.size();
                 int srcnum = 0;
                 CL_Pokemon ar = ap.get(ind);
                 if(ar.getType() < 1)

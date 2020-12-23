@@ -51,11 +51,12 @@ public class Panelim extends JPanel {
 //        g.clearRect(0, 0, w, h);
         updateFrame();
         drawInfo(g);
+     //   ProgressBarDemo(g);
         drawGraph(g);
         drawPokemons(g);
         drawTitle(g);
         drawAgants(g);
-        ProgressBarDemo(g);
+
     }
 
     private void updateFrame() {

@@ -12,26 +12,28 @@ import java.net.URL;
 
 
 public class FormatWindow extends JFrame {
-    private Arena _ar;
-    private int _ind;
-    private game_service game;
-    private Range2Range _w2f;
-    Panelim pans;
-   // private String[] GameImg = {"pics\\x.png","pics\\y.png"};
+//    private Arena _ar;
+//    private int _ind;
+//    private game_service game;
+//    private Range2Range _w2f;
+//    Panelim pans;
+
 
 
     public FormatWindow(String name) {
         super(name);
+        //setSize(new Dimension());
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setResizable(true);
+        //setResizable(true);
         this.setTitle(name);
-        setLocationRelativeTo(null);
+        this.setBackground( new Color(0xFFFFFF));
+        //setLocationRelativeTo(null);
         ImageIcon icon = new ImageIcon("pokeball.png");
         setIconImage(icon.getImage());
-        pans = new Panelim(game);
-        this.add(pans);
-        this.game=game;
-        setVisible(true);
+        //pans = new Panelim(game);
+        //this.add(pans);
+      //  this.game=game;
+        //setVisible(true);
 
     }
 

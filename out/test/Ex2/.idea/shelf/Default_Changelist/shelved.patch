@@ -1,0 +1,216 @@
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/vcs.xml	(date 1608736657575)
++++ .idea/vcs.xml	(date 1608736657575)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: src/gameClient/loginWindow.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package gameClient;\r\nimport api.*;\r\nimport javax.swing.*;\r\nimport java.awt.*;\r\nimport java.awt.event.ActionEvent;\r\nimport java.awt.event.ActionListener;\r\n\r\npublic class loginWindow extends JPanel implements ActionListener {\r\n    private JButton start;\r\n    private JLabel lvl;\r\n    private JLabel idnumb;\r\n    private JTextField scIn;\r\n    private JTextField idIn;\r\n    private boolean alreadyDoneThat=false;\r\n    /**\r\n     * paintComponenets is extended to have a nice background for the login page.\r\n     *\r\n     * @param g = Graphics\r\n     */\r\n    @Override\r\n    protected void paintComponent(Graphics g) {\r\n        super.paintComponent(g);\r\n        // URL url = this.getClass().getResource(\"themepic.gif\");\r\n        //   Image icon = new ImageIcon(url).getImage();\r\n        ImageIcon icon = new ImageIcon(\"themepic.jpg\");\r\n\r\n        g.drawImage(icon.getImage(), 0, 0, getWidth(), getHeight(), null);\r\n\r\n    }\r\n\r\n    /**\r\n     * this is the implementation of the login page, using the GUI class created for graphic interface.\r\n     */\r\n    public loginWindow() {\r\n        super();\r\n        setSize(500, 500);\r\n        setLayout(null);\r\n        JLabel lvl = new JLabel(\"Level\");\r\n        lvl.setBounds(100, 100, 70, 25);\r\n        lvl.setFont(new Font(\"Arial\", Font.PLAIN, 20));\r\n        lvl.setForeground(Color.black);\r\n        lvl.setBackground(Color.white);\r\n        lvl.setOpaque(true);\r\n        add(lvl);\r\n        scIn = new JTextField();\r\n        scIn.setFont(new Font(\"Arial\", Font.PLAIN, 10));\r\n        scIn.setBounds(250, 103, 150, 20);\r\n        add(scIn);\r\n        JLabel idnumb = new JLabel(\"Trainer ID\");\r\n        idnumb.setBounds(150, 150, 60, 25);\r\n        idnumb.setForeground(Color.black);\r\n        idnumb.setBackground(Color.white);\r\n        idnumb.setOpaque(true);\r\n        add(idnumb);\r\n        idIn = new JTextField();\r\n        idIn.setFont(new Font(\"Arial\", Font.PLAIN, 10));\r\n        idIn.setBounds(150, 153, 150, 20);\r\n        add(idIn);\r\n        start = new JButton(\"Login\");\r\n        start.setFont(new Font(\"Arial\", Font.ITALIC, 20));\r\n        start.setBounds(120, 190, 150, 50);\r\n        start.setForeground(Color.white);\r\n        start.setBackground(Color.green.darker().darker());\r\n        start.setBorder(BorderFactory.createLineBorder(Color.black, 2));\r\n        start.addActionListener(this);\r\n        this.add(scIn);\r\n        this.add(idIn);\r\n        this.add(start);\r\n        try {\r\n            int level = Integer.parseInt(scIn.getText());\r\n            int id = Integer.parseInt(idIn.getText());\r\n            Ex2.setScenario_num(level);\r\n            Ex2.setUserID(id);\r\n        } catch (NumberFormatException nfe) {\r\n            System.out.println(\"Error. ID and level can only be numbers.\");\r\n        }\r\n\r\n\r\n        @Override\r\n        public void actionPerformed(ActionEvent e){\r\n            boolean play = true;\r\n        }\r\n            if (e.getSource() == start) {\r\n                try {\r\n                    int level = Integer.parseInt(lvl.getText());\r\n                    int id = Integer.parseInt(idnumb.getText());\r\n                    Ex2.setScenario_num(level);\r\n                    Ex2.setUserID(id);\r\n                } catch (NumberFormatException nfe) {\r\n                        System.out.println(\"Invalid info.\");}\r\n                if(play) {\r\n                    Ex2.startThread();\r\n                    alreadyDoneThat = true;\r\n            }\r\n        }\r\n\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/gameClient/loginWindow.java	(revision 083e72d75354db5c0598a724d15df60622128b43)
++++ src/gameClient/loginWindow.java	(date 1608734250144)
+@@ -1,98 +1,93 @@
+-package gameClient;
+-import api.*;
+-import javax.swing.*;
+-import java.awt.*;
+-import java.awt.event.ActionEvent;
+-import java.awt.event.ActionListener;
+-
+-public class loginWindow extends JPanel implements ActionListener {
+-    private JButton start;
+-    private JLabel lvl;
+-    private JLabel idnumb;
+-    private JTextField scIn;
+-    private JTextField idIn;
+-    private boolean alreadyDoneThat=false;
+-    /**
+-     * paintComponenets is extended to have a nice background for the login page.
+-     *
+-     * @param g = Graphics
+-     */
+-    @Override
+-    protected void paintComponent(Graphics g) {
+-        super.paintComponent(g);
+-        // URL url = this.getClass().getResource("themepic.gif");
+-        //   Image icon = new ImageIcon(url).getImage();
+-        ImageIcon icon = new ImageIcon("themepic.jpg");
+-
+-        g.drawImage(icon.getImage(), 0, 0, getWidth(), getHeight(), null);
+-
+-    }
+-
+-    /**
+-     * this is the implementation of the login page, using the GUI class created for graphic interface.
+-     */
+-    public loginWindow() {
+-        super();
+-        setSize(500, 500);
+-        setLayout(null);
+-        JLabel lvl = new JLabel("Level");
+-        lvl.setBounds(100, 100, 70, 25);
+-        lvl.setFont(new Font("Arial", Font.PLAIN, 20));
+-        lvl.setForeground(Color.black);
+-        lvl.setBackground(Color.white);
+-        lvl.setOpaque(true);
+-        add(lvl);
+-        scIn = new JTextField();
+-        scIn.setFont(new Font("Arial", Font.PLAIN, 10));
+-        scIn.setBounds(250, 103, 150, 20);
+-        add(scIn);
+-        JLabel idnumb = new JLabel("Trainer ID");
+-        idnumb.setBounds(150, 150, 60, 25);
+-        idnumb.setForeground(Color.black);
+-        idnumb.setBackground(Color.white);
+-        idnumb.setOpaque(true);
+-        add(idnumb);
+-        idIn = new JTextField();
+-        idIn.setFont(new Font("Arial", Font.PLAIN, 10));
+-        idIn.setBounds(150, 153, 150, 20);
+-        add(idIn);
+-        start = new JButton("Login");
+-        start.setFont(new Font("Arial", Font.ITALIC, 20));
+-        start.setBounds(120, 190, 150, 50);
+-        start.setForeground(Color.white);
+-        start.setBackground(Color.green.darker().darker());
+-        start.setBorder(BorderFactory.createLineBorder(Color.black, 2));
+-        start.addActionListener(this);
+-        this.add(scIn);
+-        this.add(idIn);
+-        this.add(start);
+-        try {
+-            int level = Integer.parseInt(scIn.getText());
+-            int id = Integer.parseInt(idIn.getText());
+-            Ex2.setScenario_num(level);
+-            Ex2.setUserID(id);
+-        } catch (NumberFormatException nfe) {
+-            System.out.println("Error. ID and level can only be numbers.");
+-        }
+-
+-
+-        @Override
+-        public void actionPerformed(ActionEvent e){
+-            boolean play = true;
+-        }
+-            if (e.getSource() == start) {
+-                try {
+-                    int level = Integer.parseInt(lvl.getText());
+-                    int id = Integer.parseInt(idnumb.getText());
+-                    Ex2.setScenario_num(level);
+-                    Ex2.setUserID(id);
+-                } catch (NumberFormatException nfe) {
+-                        System.out.println("Invalid info.");}
+-                if(play) {
+-                    Ex2.startThread();
+-                    alreadyDoneThat = true;
+-            }
+-        }
+-
+-    }
+-}
++//package gameClient;
++//import api.*;
++//import javax.swing.*;
++//import java.awt.*;
++//import java.awt.event.ActionEvent;
++//import java.awt.event.ActionListener;
++//
++//public class loginWindow extends JPanel implements ActionListener {
++//    private JButton start;
++//    private JLabel lvl;
++//    private JLabel idnumb;
++//    private JTextField scIn;
++//    private JTextField idIn;
++//    private boolean alreadyDoneThat=false;
++//    /**
++//     * paintComponenets is extended to have a nice background for the login page.
++//     *
++//     * @param g = Graphics
++//     */
++//    @Override
++//    protected void paintComponent(Graphics g) {
++//        super.paintComponent(g);
++//        // URL url = this.getClass().getResource("themepic.gif");
++//        //   Image icon = new ImageIcon(url).getImage();
++//        ImageIcon icon = new ImageIcon("themepic.jpg");
++//
++//        g.drawImage(icon.getImage(), 0,0 , 1000, 1000, null);
++//
++//    }
++//
++//    /**
++//     * this is the implementation of the login page, using the GUI class created for graphic interface.
++//     */
++//    public loginWindow() {
++//        super();
++//        setSize(500, 500);
++//        setLayout(null);
++//        JLabel lvl = new JLabel("Level");
++//        lvl.setBounds(100, 100, 70, 25);
++//        lvl.setFont(new Font("Arial", Font.PLAIN, 20));
++//        lvl.setForeground(Color.black);
++//        lvl.setBackground(Color.white);
++//        lvl.setOpaque(true);
++//        add(lvl);
++//        scIn = new JTextField();
++//        scIn.setFont(new Font("Arial", Font.PLAIN, 10));
++//        scIn.setBounds(250, 103, 150, 20);
++//        add(scIn);
++//        JLabel idnumb = new JLabel("Trainer ID");
++//        idnumb.setBounds(150, 150, 60, 25);
++//        idnumb.setForeground(Color.black);
++//        idnumb.setBackground(Color.white);
++//        idnumb.setOpaque(true);
++//        add(idnumb);
++//        idIn = new JTextField();
++//        idIn.setFont(new Font("Arial", Font.PLAIN, 10));
++//        idIn.setBounds(150, 153, 150, 20);
++//        add(idIn);
++//        start = new JButton("Login");
++//        start.setFont(new Font("Arial", Font.ITALIC, 20));
++//        start.setBounds(120, 190, 150, 50);
++//        start.setForeground(Color.white);
++//        start.setBackground(Color.green.darker().darker());
++//        start.setBorder(BorderFactory.createLineBorder(Color.black, 2));
++//        start.addActionListener(this);
++//        this.add(scIn);
++//        this.add(idIn);
++//        this.add(start);
++//        try {
++//            int level = Integer.parseInt(scIn.getText());
++//            int id = Integer.parseInt(idIn.getText());
++//            Ex2.setScenario_num(level);
++//            Ex2.setUserID(id);
++//        } catch (NumberFormatException nfe) {
++//            System.out.println("Error. ID and level can only be numbers.");
++//        }
++//
++//
++//        @Override
++//        public void actionPerformed(ActionEvent e){
++//            boolean play = true;
++//
++//            if (e.getSource() == start) {
++//                try {
++//                    int level = Integer.parseInt(lvl.getText());
++//                    int id = Integer.parseInt(idnumb.getText());
++//                } catch (NumberFormatException nfe) {
++//                        System.out.println("Invalid info.");}
++//
++//        }
++//
++//    }
++//}

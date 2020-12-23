@@ -19,15 +19,15 @@ public class MusicBack {
                     Clip clip = AudioSystem.getClip();
                     clip.open(audioInput);
                     clip.start();
-                    clip.loop(Clip.LOOP_CONTINUOUSLY); // loop the music until pressing OK
-                    JOptionPane.showMessageDialog(null,"Hit OK to pause the harmony");
-                    long clipTimePosition = clip.getMicrosecondPosition(); // pause the music
-                    clip.stop();
-
-                    JOptionPane.showMessageDialog(null,"Hit OK to resume the harmony");
-                    clip.setMicrosecondPosition(clipTimePosition); // resume the music from where we pause
-                    clip.start();
-                    JOptionPane.showMessageDialog(null,"Press OK to stop playing");
+                   // clip.loop(Clip.LOOP_CONTINUOUSLY); // loop the music until pressing OK
+//                    JOptionPane.showMessageDialog(null,"Hit OK to pause the harmony");
+//                    long clipTimePosition = clip.getMicrosecondPosition(); // pause the music
+//                    clip.stop();
+//
+//                    JOptionPane.showMessageDialog(null,"Hit OK to resume the harmony");
+//                    clip.setMicrosecondPosition(clipTimePosition); // resume the music from where we pause
+//                    clip.start();
+//                    JOptionPane.showMessageDialog(null,"Press OK to stop playing");
                 } else {
                     System.out.println("Cant find the file");
                 }
