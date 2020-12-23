@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Ex2:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7f14206d-5007-45f5-afa5-37ffe316c4ce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RunManager" selected="JAR Application.Ex2.jar">
+    <configuration name="Ex2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gameClient.Ex2" />
+      <module name="Ex2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gameClient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DWGraph_Test.getNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Ex2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.DWGraph_Test" />
+      <option name="METHOD_NAME" value="getNode" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DWGraph_Test.testAddNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Ex2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.DWGraph_Test" />
+      <option name="METHOD_NAME" value="testAddNode" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex2.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/Ex2_jar/Ex2.jar" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JAR Application.Ex2.jar" />
+        <item itemvalue="Application.Ex2" />
+        <item itemvalue="JUnit.DWGraph_Test.getNode" />
+        <item itemvalue="JUnit.DWGraph_Test.testAddNode" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7f14206d-5007-45f5-afa5-37ffe316c4ce" name="Default Changelist" comment="" />
+      <created>1607469113881</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607469113881</updated>
+      <workItem from="1607469115294" duration="5040000" />
+      <workItem from="1607557340158" duration="10038000" />
+      <workItem from="1607629477238" duration="28262000" />
+      <workItem from="1608421129569" duration="51559000" />
+      <workItem from="1608587845182" duration="1808000" />
+      <workItem from="1608638000574" duration="34456000" />
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1608722424605">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680/1920.313.1360.728@0.0.1280.680" timestamp="1608722424605" />
+    <state x="2330" y="467" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1608731956284">
+      <screen x="1920" y="313" width="1360" height="728" />
+    </state>
+    <state x="2330" y="467" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.680/1920.313.1360.728@1920.313.1360.728" timestamp="1608731956284" />
+    <state x="2347" y="521" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1608723792681">
+      <screen x="1920" y="313" width="1360" height="728" />
+    </state>
+    <state x="2347" y="521" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.680/1920.313.1360.728@1920.313.1360.728" timestamp="1608723792681" />
+    <state x="433" y="111" key="FileChooserDialogImpl" timestamp="1608736643945">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="2380" y="432" key="FileChooserDialogImpl/0.0.1280.680/1920.313.1360.728@1920.313.1360.728" timestamp="1608733033583" />
+    <state x="433" y="111" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1608736643945" />
+    <state width="1317" height="222" key="GridCell.Tab.0.bottom" timestamp="1608737813355">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="178" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.313.1360.728@0.0.1280.680" timestamp="1608723242347" />
+    <state width="1317" height="178" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.313.1360.728@1920.313.1360.728" timestamp="1608734166351" />
+    <state width="1317" height="222" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1608737813355" />
+    <state width="1317" height="222" key="GridCell.Tab.0.center" timestamp="1608737813355">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="178" key="GridCell.Tab.0.center/0.0.1280.680/1920.313.1360.728@0.0.1280.680" timestamp="1608723242347" />
+    <state width="1317" height="178" key="GridCell.Tab.0.center/0.0.1280.680/1920.313.1360.728@1920.313.1360.728" timestamp="1608734166351" />
+    <state width="1317" height="222" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1608737813355" />
+    <state width="1317" height="222" key="GridCell.Tab.0.left" timestamp="1608737813355">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="178" key="GridCell.Tab.0.left/0.0.1280.680/1920.313.1360.728@0.0.1280.680" timestamp="1608723242347" />
+    <state width="1317" height="178" key="GridCell.Tab.0.left/0.0.1280.680/1920.313.1360.728@1920.313.1360.728" timestamp="1608734166351" />
+    <state width="1317" height="222" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1608737813355" />
+    <state width="1317" height="222" key="GridCell.Tab.0.right" timestamp="1608737813355">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="178" key="GridCell.Tab.0.right/0.0.1280.680/1920.313.1360.728@0.0.1280.680" timestamp="1608723242347" />
+    <state width="1317" height="178" key="GridCell.Tab.0.right/0.0.1280.680/1920.313.1360.728@1920.313.1360.728" timestamp="1608734166351" />
+    <state width="1317" height="222" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1608737813355" />
+    <state width="1317" height="222" key="GridCell.Tab.1.bottom" timestamp="1608737813355">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680/1920.313.1360.728@0.0.1280.680" timestamp="1608723222683" />
+    <state width="1317" height="222" key="GridCell.Tab.1.bottom/0.0.1280.680/1920.313.1360.728@1920.313.1360.728" timestamp="1608723619969" />
+    <state width="1317" height="222" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1608737813355" />
+    <state width="1317" height="222" key="GridCell.Tab.1.center" timestamp="1608737813355">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680/1920.313.1360.728@0.0.1280.680" timestamp="1608723222683" />
+    <state width="1317" height="222" key="GridCell.Tab.1.center/0.0.1280.680/1920.313.1360.728@1920.313.1360.728" timestamp="1608723619969" />
+    <state width="1317" height="222" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1608737813355" />
+    <state width="1317" height="222" key="GridCell.Tab.1.left" timestamp="1608737813355">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680/1920.313.1360.728@0.0.1280.680" timestamp="1608723222683" />
+    <state width="1317" height="222" key="GridCell.Tab.1.left/0.0.1280.680/1920.313.1360.728@1920.313.1360.728" timestamp="1608723619969" />
+    <state width="1317" height="222" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1608737813355" />
+    <state width="1317" height="222" key="GridCell.Tab.1.right" timestamp="1608737813355">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680/1920.313.1360.728@0.0.1280.680" timestamp="1608723222683" />
+    <state width="1317" height="222" key="GridCell.Tab.1.right/0.0.1280.680/1920.313.1360.728@1920.313.1360.728" timestamp="1608723619969" />
+    <state width="1317" height="222" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1608737813355" />
+    <state x="2080" y="313" key="SettingsEditor" timestamp="1608731969000">
+      <screen x="1920" y="313" width="1360" height="728" />
+    </state>
+    <state x="2080" y="313" key="SettingsEditor/0.0.1280.680/1920.313.1360.728@1920.313.1360.728" timestamp="1608731969000" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1608736826935">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1608736826935" />
+  </component>
+</project>
