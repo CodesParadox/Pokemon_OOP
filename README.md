@@ -52,6 +52,7 @@ This game operate itself, AKA auto mode, and you will watch the game plays autom
 
 
 
+<img width="736" alt="ללא שם" src="https://user-images.githubusercontent.com/69432977/103016871-7273fd80-454b-11eb-919f-8a6182f92d7a.png">
 
 
 
